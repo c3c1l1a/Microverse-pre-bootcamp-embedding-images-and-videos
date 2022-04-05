@@ -52,4 +52,58 @@ table {
 	border-spacing: 0;
 }
 
+/*
+	================================
+	Border box reset
+	================================
+*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/*
+	=================================
+	Header 
+	=================================
+*/
+
+/* == clearfix ==*/
+header:before,
+header:after {
+	content: "";
+	display: table;
+}
+
+header:after {
+	clear: both;
+}
+
+header {
+	border: green 1px solid;
+	clear: both;
+}
+
+header 
+section {
+	float: left;
+	border: red solid 1px;
+	margin: 0 1.5%;
+}
+/* == end clearfix ==*/
+
+header
+section > * {
+	display: inline-block;
+	margin: 0 1.5%;
+	background: blue;
+}
+
+
+
+
+
 

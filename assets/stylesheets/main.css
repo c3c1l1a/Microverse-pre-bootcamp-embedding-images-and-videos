@@ -95,10 +95,9 @@ header > div  {
 }
 
 
-
 #left-header-section {
 	display: flex;
-	border: solid blue 1px;
+	
 }
 
 #left-header-section > * {
@@ -158,16 +157,27 @@ h3 {
 
 }
 
+#center-header-section {
+	
+}
 
 #center-header-section
 form {
-	height: 30px;
-	box-shadow: gray 0 0 1px 0;
+
 }
 
 #center-header-section 
 form > * {
 	height: 100%;
+}
+
+#center-header-section > 
+form >
+#searchbox {
+	width: 500px;
+	height: 50px;
+
+	box-shadow: inset 0 0 5px 1px darkgrey;
 }
 
 

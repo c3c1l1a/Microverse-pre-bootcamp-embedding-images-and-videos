@@ -74,14 +74,18 @@ html {
 
 
 header {
+
 	display: flex;
 	flex-direction: row;
 	flex-wrap:  nowrap;
 	justify-content: space-between;
+	box-shadow: darkslategray 0 0 1px 1px;
+	height: 80px;
+
 	background: darkslategray;
 	padding: 0 5px;
 
-	box-shadow: darkslategray 0 0 1px 1px;
+	
 }
 
 header > div  {

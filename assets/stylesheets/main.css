@@ -94,11 +94,22 @@ header > div > * {
 	margin: 0 10px;
 }
 
-#left-header-section nav {
+#left-header-section 
+nav {
+	position: relative;
 	width:30px;
 	height:30px;
 
-	background: aquamarine;
+}
+
+#left-header-section >
+nav >
+img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
 }
 
 #left-header-section 

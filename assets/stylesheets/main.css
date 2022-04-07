@@ -74,6 +74,7 @@ html {
 
 
 header {
+	position: fixed;
 	display: flex;
 	flex-direction: row;
 	flex-wrap:  nowrap;
@@ -81,7 +82,9 @@ header {
 	align-items: center;
 	box-shadow: darkslategray 0 0 5px .5px;
 	height: 80px;
+	width: 100%;
 	padding: 0 5px;
+	background: white;
 }
 
 #left-header-section {

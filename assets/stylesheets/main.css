@@ -71,35 +71,96 @@ html {
 	=================================
 */
 
-/* == clearfix ==*/
-header:before,
-header:after {
-	content: "";
-	display: table;
-}
 
-header:after {
-	clear: both;
-}
 
 header {
-	border: green 1px solid;
-	clear: both;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:  nowrap;
+	justify-content: space-between;
+	background: darkslategray;
+	padding: 0 5px;
+
+	box-shadow: darkslategray 0 0 1px 1px;
 }
 
-header 
-section {
-	float: left;
-	border: red solid 1px;
-	margin: 0 1.5%;
-}
-/* == end clearfix ==*/
+header > div  {
 
-header
-section > * {
+	padding:  10px;
+}
+
+header > div > * {
 	display: inline-block;
-	margin: 0 1.5%;
-	background: blue;
+	margin: 0 10px;
+}
+
+#left-header-section nav {
+	width:30px;
+	height:30px;
+
+	background: aquamarine;
+}
+
+#left-header-section 
+#logo-and-title > * {
+	display: inline-block;	
+	margin: 0 5px;
+}
+
+#left-header-section 
+#logo-and-title 
+i {
+	width:30px;
+	height:30px;
+
+}
+
+#left-header-section
+#logo-and-title 
+h3 {
+	width: 100px;
+	height:30px;
+
+	background: goldenrod;
+}
+
+
+#center-header-section
+form {
+	height: 30px;
+	box-shadow: gray 0 0 1px 0;
+}
+
+#center-header-section 
+form > * {
+	height: 100%;
+}
+
+
+
+#right-header-section
+#meta-icons  {
+	display: inline-block;
+	width: 150px;
+	height:30px;
+}
+
+#right-header-section
+#meta-icons > i {
+	display: inline-block;
+	width:30px;
+	height:30px;
+	margin: 0 5px;
+	background: darkturquoise;
+}
+
+
+#right-header-section 
+img {
+	width:30px;
+	height:30px;
+
+	border-radius: 100px;
 }
 
 

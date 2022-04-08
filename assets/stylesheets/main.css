@@ -268,6 +268,11 @@ iframe {
 }
 
 #sidebar >
+#badges {
+	padding-bottom: 30px;
+}
+
+#sidebar >
 #badges >
 span {
 	padding:  10px;
@@ -279,6 +284,49 @@ span {
 	font-style: italic;
 	color: darkslategray;
 
+}
+
+#sidebar > 
+#video-thumbnails > 
+article {
+	display: flex;
+	margin-bottom: 5px;
+	border-bottom: 1px white solid;
+}
+#sidebar > 
+#video-thumbnails > 
+article >
+img {
+	width: 45%;
+	margin-right: 10px;
+}
+
+#sidebar > 
+#video-thumbnails >
+article >
+div {
+	display: flex;
+	flex-direction: column;
+}
+
+#sidebar >
+#video-thumbnails > 
+article >
+div >
+h4 {
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#sidebar >
+#video-thumbnails > 
+article >
+div >
+span {
+	font-size: 18px;
+	font-style: italic;
+	
 }
 
 

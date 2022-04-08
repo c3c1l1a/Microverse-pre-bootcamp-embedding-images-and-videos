@@ -263,8 +263,25 @@ iframe {
 #sidebar {
 	width: 20%;
 	height: inherit;
+	padding:  20px 0;
 	background: darksalmon;
 }
+
+#sidebar >
+#badges >
+span {
+	padding:  10px;
+	margin: 5px;
+	border-radius: 15px;
+
+	background: lightgray;
+
+	font-style: italic;
+	color: darkslategray;
+
+}
+
+
 
 
 

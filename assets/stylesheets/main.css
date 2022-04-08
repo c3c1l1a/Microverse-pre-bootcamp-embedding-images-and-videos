@@ -242,12 +242,22 @@ img {
 	display: flex;
 	margin: 0 100px;
 	min-height: 200vh;
+	padding-top: 80px;
 }
 
-#video-player {
-	width: 80%;
-	height: inherit;
+#video-player-section {
+	display: flex;
+	justify-content: center;
+	width: 70vw;
+	height: fit-content;
 	background: gold;
+	padding: 30px;
+}
+
+#video-player-section  >
+iframe {
+	width: 70vw;
+	height: calc(70vw * 9 / 16);
 }
 
 #sidebar {
